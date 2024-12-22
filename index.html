@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js" defer></script>
+  <title>Rock, Paper, Scissor</title>
+</head>
+<body>
+  
+  <div class="container">
+    <div class="game-play">
+      
+      <div class="logo-container">
+        <img src="images/logo.svg" alt="logo">
+        <div class="score-board">
+          <p>SCORE</p>
+          <h1 class="score" >0</h1>
+        </div>
+      </div>
+
+      <div class="choice-container">
+       <div class="choice" id="p" data-pick="paper">
+            <div>
+              <img src="images/icon-paper.svg" alt="paper">
+            </div>
+          </div>
+          <div class="choice" id="s" data-pick="scissors">
+           <div> <img src="images/icon-scissors.svg" alt="scissors"></div>
+          </div>
+          <div class="choice" id="r" data-pick="rock">
+            <div>
+              <img src="images/icon-rock.svg" alt="rock">
+            </div>
+          </div>
+        
+        </div>
+        
+        <div class="result-container">
+          <div class="pick-text">
+            <div>
+             <h3>YOU PICKED</h3>
+            </div>
+            <div>
+              <h3>THE HOUSE PICKED</h3>
+            </div>
+    
+          </div>
+          <div class="result-pick">
+            <div class="choice-pick" id="p">
+              
+            </div>
+            <div class="result">
+              <h1 id="result"></h1>
+              <button id="play-btn">PLAY AGAIN</button>
+            </div>
+            <div class="house-pick" id="house-pick">
+              
+            </div>
+        </div>
+
+
+    </div>
+    
+    
+    <div class="rule-container">
+      <button class="rule-btn"><i>RULES</i></button>
+    </div>
+    <div class="rule-display">
+      <div class="rule-content">
+        <div class="rule-header">
+          <h1>RULES</h1>
+          <img src="images/icon-close.svg" id="close" alt="close icon" width="20px" height="20px">
+        </div>
+        <div class="rule-body">
+          <img src="images/image-rules.svg"  alt="rules">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
